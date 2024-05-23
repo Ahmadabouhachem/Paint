@@ -10,6 +10,12 @@ public class Draw {
     }
 
     public static void randomArrayPrint() {
+        StdDraw.setCanvasSize(800, 800);
+
+        // adding picture as background
+//        StdDraw.picture(0.5, 0.5, "lib/hasibo.png");
+//        StdDraw.show();
+
         //change background color to black
         StdDraw.clear(new Color(0, 0, 0));
 
@@ -84,4 +90,5 @@ public class Draw {
             x5 += 0.01f;
         }
     }
+
 }
